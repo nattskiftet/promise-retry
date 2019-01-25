@@ -1,0 +1,34 @@
+{
+    "name": "@amphibian/promise-retry",
+    "version": "0.0.0",
+    "description": "no dependency promise retries",
+    "main": "index.js",
+    "repository": "https://github.com/amphibian-no/promise-retry",
+    "author": "Thomas Lindstrøm <t@hom.as>",
+    "scripts": {
+        "test": "jest --coverage",
+        "lint": "xo"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "babel-eslint": "^10.0.1",
+        "eslint-config-amphibian": "^1.1.2",
+        "jest": "^23.6.0",
+        "xo": "^0.24.0"
+    },
+    "xo": {
+        "parser": "babel-eslint",
+        "extends": [
+            "eslint-config-amphibian"
+        ],
+        "overrides": [
+            {
+                "files": "test.js",
+                "globals": [
+                    "test",
+                    "expect"
+                ]
+            }
+        ]
+    }
+}
