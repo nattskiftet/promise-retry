@@ -1,6 +1,6 @@
 {
     "name": "@amphibian/promise-retry",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "no dependency promise retries",
     "main": "index.js",
     "repository": "https://github.com/amphibian-no/promise-retry",
