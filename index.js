@@ -29,6 +29,7 @@ class AbortError extends Error {
  * @param {object} options - the options object
  * @param {number} options.attempts - the number of retries
  * @param {number} options.timeout - the number of milliseconds to wait between retries
+ *
  * @returns {Promise}
 **/
 function retry(callback, options) {
