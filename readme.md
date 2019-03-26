@@ -55,7 +55,7 @@ retry(fetchUsers, {attempts: 3})
 	});
 ```
 
-## `fetch(function, options)`
+## `retry(function, options)`
 
 ### `function` _(`Function`)_
 
