@@ -1,7 +1,7 @@
 {
     "name": "@amphibian/promise-retry",
     "version": "1.0.2",
-    "description": "no dependency promise retries",
+    "description": "promise retries",
     "main": "index.js",
     "browser": "index.browser.js",
     "repository": "https://github.com/amphibian-no/promise-retry",
@@ -35,5 +35,8 @@
                 ]
             }
         ]
+    },
+    "dependencies": {
+        "@babel/runtime-corejs2": "^7.4.5"
     }
 }

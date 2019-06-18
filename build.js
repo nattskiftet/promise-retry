@@ -4,22 +4,28 @@ const babel = require('@babel/core');
 babel.transformFile(
 	'./index.js',
 	{
-		comments: false,
 		minified: true,
+		babelrc: false,
+		configFile: false,
 		presets: [
 			[
 				'@babel/preset-env',
 				{
-					useBuiltIns: 'usage',
+					modules: 'commonjs',
 					targets: {
-						browsers: ['> 0.25%']
+						browsers: ['> 1%']
 					}
 				}
 			]
 		],
 		plugins: [
 			[
-				'@babel/plugin-transform-runtime'
+				'@babel/plugin-transform-runtime',
+				{
+					corejs: 2,
+					helpers: true,
+					useESModules: false
+				}
 			]
 		]
 	},

@@ -1,6 +1,6 @@
 # @amphibian/promise-retry
 
-no dependency promise retries
+promise retries
 
 ```
 npm install @amphibian/promise-retry
