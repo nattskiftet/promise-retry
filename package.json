@@ -9,7 +9,8 @@
     "scripts": {
         "test": "jest --coverage",
         "lint": "xo",
-        "build": "node build.js"
+        "build": "node build.js",
+        "prepublish": "npm run build"
     },
     "license": "MIT",
     "devDependencies": {
